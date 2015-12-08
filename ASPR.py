@@ -285,7 +285,7 @@ for each,boardstring in zip(columns['asin'],columns['board']):
 	w.writerow([(time.strftime("%d/%m/%Y")), item_TITLE,category,asin])
 	f.close()
 
-	#Generate URL for Boston Outftters
+	#Generate URL 
 	encrypted_url = urlgenerate.generateENCRPYTEDurl(str(asin), "")
 	# Push to Pinterest
 
